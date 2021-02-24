@@ -5,6 +5,7 @@ Componentes: Serve para isolar pedaços de código e reaproveitamento do mesmo.
 Criar novo projeto: yarn create react-app moveit --template=typescript
 
 ------------------------------------------------------------------------------------------
+
 //criação do button de exemplo para os componente, propriedades e estado.
 import { useState } from 'react';
 
@@ -26,6 +27,7 @@ export function Button(props: ButtonProps) {
     </button>
   );
 }
+
 ------------------------------------------------------------------------------------------
 
 Cores Globais:
@@ -42,3 +44,16 @@ Cores Globais:
   --blue-dark: #4953b8;
   --blue-twitter: #2aa9e0;
 }
+
+------------------------------------------------------------------------------------------
+Next.js nada mais é que uma camada intermediária entre o frontend e o backend responsável por construir a inferface da aplicação
+
+SPA (single page application) - muda apenas o conteúdo entre as páginas
+SEO (search engineering optimization) - faz com que motores de busca e crawlers identifiquem o site
+SSR (server side rendering)
+SSG (static site generation) - página estática que pode ser atualizada a cada determinado X de tempo
+
+3 maneiras de criar projeto em react:
+create react-app (SPA)
+Gastsby (Páginas estáticas)
+Next.js (SPA, SSR, SSG)
